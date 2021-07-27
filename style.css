@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+:root {
+    --default-font: 'Lato', sans-serif; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    line-height: 1.6;
+    color:antiquewhite;
+    text-align: center;
+    font-family: var(--default-font);
+    background-color: rgb(26, 25, 26)
+}
+
+#title {
+    margin: 1rem 1rem;
+}
+
+img {
+    max-width: 80%;;
+}
+
+figcaption {
+    padding: 10px;
+}
+
+blockquote {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: justify;
+    font-style: italic;
+}
+
+#img-div {
+    margin: 10px;
+    padding: 20px;
+    color: #ffff;
+    background-color: rgb(39, 39, 39);
+}
+
+#tribute-info ul {
+    margin: 0 auto 50px auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+#tribute-info h3 {
+    padding: 40px 0px;
+}
+
+#tribute-info li {
+    padding: 5px;
+}
+
+#tribute-more {
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+#tribute-link {
+    color: rgb(226, 42, 42);
+    font-style: italic;
+}
+
+
+
+
